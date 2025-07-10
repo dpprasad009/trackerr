@@ -101,7 +101,7 @@ const Register = () => {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="gi"
+                    placeholder=""
                     value={formData.email}
                     onChange={handleChange}
                     className="pl-10 bg-gray-700/50 border-gray-600 text-white placeholder-gray-400 focus:border-cyan-400"
