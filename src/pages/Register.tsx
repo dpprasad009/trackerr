@@ -66,7 +66,7 @@ const Register = () => {
                       id="firstName"
                       name="firstName"
                       type="text"
-                      placeholder="John"
+                      placeholder=""
                       value={formData.firstName}
                       onChange={handleChange}
                       className="pl-10 bg-gray-700/50 border-gray-600 text-white placeholder-gray-400 focus:border-cyan-400"
@@ -83,7 +83,7 @@ const Register = () => {
                       id="lastName"
                       name="lastName"
                       type="text"
-                      placeholder="Doe"
+                      placeholder=""
                       value={formData.lastName}
                       onChange={handleChange}
                       className="pl-10 bg-gray-700/50 border-gray-600 text-white placeholder-gray-400 focus:border-cyan-400"
@@ -101,7 +101,7 @@ const Register = () => {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="john@example.com"
+                    placeholder="gi"
                     value={formData.email}
                     onChange={handleChange}
                     className="pl-10 bg-gray-700/50 border-gray-600 text-white placeholder-gray-400 focus:border-cyan-400"
